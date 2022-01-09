@@ -27,7 +27,7 @@ class StockIntegrationTest {
     assertEquals("HCC", stock.getTicker());
   }
 
-  @Test
+ // @Test
   void status_code_404_for_no_sticker_found() {
     HttpClientResponseException httpClientResponseException =
         assertThrows(
